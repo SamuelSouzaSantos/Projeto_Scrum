@@ -1,4 +1,4 @@
-class Cliente{
+export class Cliente{
     constructor(codigo, nome, endereco, cidade, cep, uf, cgc, ie){
         this.codigoCliente = codigo
         this.nomeCliente = nome
