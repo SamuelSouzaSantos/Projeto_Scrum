@@ -1,4 +1,4 @@
-class ItemDoPedido {
+export class ItemDoPedido {
     constructor(numPedido, codigoProduto, quantidade) {
         this.numPedido = numPedido;
         this.codigoProduto = codigoProduto;

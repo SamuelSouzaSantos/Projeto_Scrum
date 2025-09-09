@@ -12,4 +12,5 @@ CalcularMedia(vendas){
         return total / vendas.length;
     }
     return 0;
+    }
 }
