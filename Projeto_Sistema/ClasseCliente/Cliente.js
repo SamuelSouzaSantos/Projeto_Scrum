@@ -9,4 +9,9 @@ export class Cliente{
         this.cgc = cgc
         this.ie = ie
     }
+
+    fazerPedido(novoPedido){
+        console.log(`Pedido de um ${novoPedido} criado.`)
+        
+    }
 }

@@ -5,4 +5,7 @@ export class Vendedor {
         this.salario = salario;
         this.comissao = comissao;
     }
+    calcularSalario(vendas) {
+        this.salario + (vendas * this.comissao);
+    }
 }
