@@ -11,7 +11,7 @@ export class Cliente{
     }
 
     fazerPedido(novoPedido){
-        console.log(`Pedido de um ${novoPedido} criado.`)
+        console.log(`Pedido número: ${novoPedido} criado.`)
         
     }
 }
